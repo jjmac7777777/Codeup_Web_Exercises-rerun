@@ -7,17 +7,33 @@
 <body>
 <p><strong><em>Register with us!</em></strong></p>
 <form>
-    <input type="text" name="email" placeholder="Enter your email address">
-    <input type="password" name="password">
-    <textarea name="bio"></textarea>
     <br>
     <input name="newsletter_signup" value="true" type="checkbox" checked>Sign Up For The Email Newsletter
     <br>
+    <label>
+        <textarea name="email">EMAIL:</textarea>
+        <textarea name="password">PASSWORD:</textarea>
+    </label>
+
+    <input type="text" name="email" placeholder="Enter your email address">
+    <input type="password" name="password">
+
+    <label>
+        <textarea name="bio">BIO:</textarea>
+    </label>
+    <br>
+    <h1>HOW DID YOU HEAR ABOUT US?</h1>
     A <input type="radio" name="quiz_question_1" value="a">Billboard<br>
     B <input type="radio" name="quiz_question_1" value="b">Radio Advertisement<br>
     C <input type="radio" name="quiz_question_1" value="c">Internet Advertisement<br>
     D <input type="radio" name="quiz_question_1" value="d">Other<br>
 
+    <h1>What BROWSER are you using???</h1>
+    <select name="browser">
+        <option value="google-chrome">CHROME</option>
+        <option value="microsoft-edge">EDGE</option>
+        <option value="firefox">FIREFOX</option>
+    </select>
 
 </form>
 </body>
