@@ -1,11 +1,11 @@
 .fancy-header {
-    color: purple; /* single line comment */
+    color: blue;
     text-decoration: underline;
 }
-
 .fancy-header {
-    color: blue;
-}
+     color: purple; /* single line comment */
+     text-decoration: underline;
+ }
 .extra-large {
     font-size: 200px;
 }
