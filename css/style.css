@@ -1,11 +1,27 @@
+
+
 .fancy-header {
-    color: blue;
-    text-decoration: underline;
+    color: burlywood;
+    text-decoration: overline;
 }
 .fancy-header {
-     color: purple; /* single line comment */
-     text-decoration: underline;
+     color: yellow; /* single line comment */
+     text-decoration: overline;
  }
 .extra-large {
-    font-size: 200px;
+    font-size: 120px;
 }
+
+
+body {
+    background-color: #808080;
+    background-image: url(https://images.pexels.com/photos/310452/pexels-photo-310452.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size: 400px 400px;
+    background-position: 50% 50%;
+    font-family: Verdana, sans-serif;
+    font-size: 60px
+}
+
+ol { list-style: upper-alpha; }
+ul { list-style: square; }
+
