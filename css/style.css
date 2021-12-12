@@ -25,3 +25,24 @@ body {
 ol { list-style: upper-alpha; }
 ul { list-style: square; }
 
+th {
+    letter-spacing: 40px;
+}
+
+td {
+    letter-spacing: 40px;
+}
+
+padding {
+    letter-spacing: 40em;
+}
+
+font {
+    size: 300px;
+    font-max-size: x-large;
+}
+
+.classname:link    {color:orange;}
+.classname:visited {color:green;}
+.classname:hover   {color:yellow;}
+.classname:active  {color:red;}
