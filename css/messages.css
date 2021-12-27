@@ -6,6 +6,9 @@ body, html {
     font-family: Arial, Ubuntu, sans-serif;
 }
 
+h1 {
+    color:magenta;
+}
 .message{
     border: solid lightgray;
     margin: .5em;
