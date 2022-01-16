@@ -1,11 +1,19 @@
-/*.jumbotron-fluid {*/
-/*    background-image: url("img/jumbotron_image.png");*/
-/*}*/
+.jumbotron-fluid {
+    background-image: url("../img/pizza.png");
+}
 
-/*h1 {*/
-/*    align-items: center;*/
-/*}*/
+h1 {
+    text-align: center;
+}
+
+.navbar {
+    margin-left: auto;
+}
 
 .navbar-nav {
     margin-left: fill;
+}
+
+.nav-item {
+    justify-items: left;
 }
