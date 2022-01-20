@@ -7,3 +7,27 @@ p {
    font-weight: bold;
    color: darkred;
 }
+
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: blue;
+}
+p {
+    color: rebeccapurple;
+}
+ul.cir {
+    list-style-type: circle;
+}
+ul.Sir {
+    list-style-type: square;
+}
+
+ul.out {
+    list-style-position: outside;
+}
+
+ul.in{
+    list-style-position: inside;
+}
