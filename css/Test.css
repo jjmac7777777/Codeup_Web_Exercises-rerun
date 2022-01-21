@@ -31,3 +31,38 @@ ul.out {
 ul.in{
     list-style-position: inside;
 }
+
+ol {
+    background: #99ff99;
+    padding: 20px;
+}
+
+ol li {
+    background: magenta;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+table, th, td {
+    border: 2px blueviolet;
+}
+
+table {
+    border-spacing: 55px;
+}
+
+th, td {
+    text-align: center;
+    padding: 50px;
+}
+
+table {
+    background-color: mistyrose;
+}
+
+#q2 {
+    border: 5px cornflowerblue;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
