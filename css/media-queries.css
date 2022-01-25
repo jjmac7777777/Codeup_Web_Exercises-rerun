@@ -1,43 +1,3 @@
-.alert-info{
-
-}
-
-.hidden-on-desktop {
-
-
-}
-
-.nav-links{
-
-}
-
-.nav-links>li>a{
-    color: green;
-    flex-direction: column;
-
-}
-
-.header-img{
-    display: flex;
-
-
-}
-
-
-.main{
-
-}
-
-.sub-section{
-
-}
-
-
-/* screen sizes between 960px and 1200px */
-@media screen and (min-width:992px) {
-
-}
-
 
 * {
     box-sizing: border-box;
@@ -80,54 +40,6 @@ nav {
     margin: 0 0 5px 0;
     font-size: 4em;
 }
-/*.fa {*/
-/*    padding: 20px;*/
-/*    text-align: center;*/
-/*    margin: 5px 2px;*/
-/*    font-size: 30px;*/
-/*    width: 50px;*/
-/*}*/
-/*.fa-facebook {*/
-/*    background: #3B5998;*/
-/*    color: white;*/
-/*}*/
-/*.fa-twitter {*/
-/*    background: #55ACEE;*/
-/*    color: white;*/
-/*}*/
-/*.fa-pinterest {*/
-/*    background: #cb2027;*/
-/*    color: white;*/
-/*}*/
-/*.fa-linkedin {*/
-/*    background: #007bb5;*/
-/*    color: white;*/
-/*}*/
-/*.fa-instagram {*/
-/*    background: #125688;*/
-/*    color: white;*/
-/*}*/
-/*.fa-youtube {*/
-/*    background: #bb0000;*/
-/*    color: white;*/
-/*}*/
-/*.fa-google {*/
-/*    background: #dd4b39;*/
-/*    color: white;*/
-/*}*/
-
-/*.fa-snapchat-ghost {*/
-/*    background: #fffc00;*/
-/*    color: white;*/
-/*    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
-/*}*/
-/*.fa-skype {*/
-/*    background: #00aff0;*/
-/*    color: white;*/
-/*}*/
-/*.fa:hover {*/
-/*    opacity: 0.9;*/
-/*}*/
 /*small device*/
 @media screen and (min-width: 200px) and (max-width: 767px){
     body{
@@ -155,5 +67,3 @@ nav {
         background-color: #0fb784;
     }
 }
-
-
